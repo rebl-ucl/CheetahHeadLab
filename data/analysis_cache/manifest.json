@@ -1,0 +1,296 @@
+{
+  "pursuits": 18,
+  "draws_per_pursuit": 500,
+  "manuscript_frames": 1708,
+  "source": "Manuscript ensembles, compacted during release validation on 2026-11-17",
+  "files": [
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun11_20171212/3DLurePos.mat",
+      "sha256": "81632056ac28d9952afb3a08d02ba4e11cf56d98cd627d0e7e547dcb070851a8"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun11_20171212/3DLurePos_full.mat",
+      "sha256": "81632056ac28d9952afb3a08d02ba4e11cf56d98cd627d0e7e547dcb070851a8"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun11_20171212/MonteCarloResults/mcMain_cetaneTopRun11_20171212.mat",
+      "sha256": "c33190560a8e0fe5bc7352d99756ef30ce47bcb4741f4666a653545386b2e282"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun11_20171212/storedOptimRaw_trajectory.mat",
+      "sha256": "5e489cb1e32a029c51fc0bd591d618e6339c50b25ae2935c6c247fbbe8ab27fc"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun1_20171216/3DLurePos.mat",
+      "sha256": "0943893b194409f23a09fbcfa38b2478e4069c3876c66dfc73fd09482b68417b"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun1_20171216/3DLurePos_full.mat",
+      "sha256": "0943893b194409f23a09fbcfa38b2478e4069c3876c66dfc73fd09482b68417b"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun1_20171216/MonteCarloResults/mcMain_cetaneTopRun1_20171216.mat",
+      "sha256": "cca5997e1c42278c1a5c0cb26c4456f5b28392d5ef32f1e2c21ddbf08c7d36c2"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/cetaneTopRun1_20171216/storedOptimRaw_trajectory.mat",
+      "sha256": "88472b7bd8d1bad38196f219ba4ce88c3214bb9e23926efc4a235893889a9d52"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesBottomFlick2_20171209/3DLurePos.mat",
+      "sha256": "cab9037848ef4f0670356300332eaf7eeec90489e19c4edb9bd785140928528e"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesBottomFlick2_20171209/3DLurePos_full.mat",
+      "sha256": "cab9037848ef4f0670356300332eaf7eeec90489e19c4edb9bd785140928528e"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesBottomFlick2_20171209/MonteCarloResults/mcMain_julesBottomFlick2_20171209.mat",
+      "sha256": "ca97109432bf1aad80250870c44eace57ce36b35302f4837dc81224afb223073"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesBottomFlick2_20171209/storedOptimRaw_trajectory.mat",
+      "sha256": "01b4446809c792e936dae4044f6586159975979bb94a9f7155ac09f71892060c"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesTopRun1_20170902/3DLurePos.mat",
+      "sha256": "fe6553418723cd480e394d7cb446f00f2db110cda736a9421ed9df9c0d7e0414"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesTopRun1_20170902/3DLurePos_full.mat",
+      "sha256": "fe6553418723cd480e394d7cb446f00f2db110cda736a9421ed9df9c0d7e0414"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesTopRun1_20170902/MonteCarloResults/mcMain_julesTopRun1_20170902.mat",
+      "sha256": "0ef213064fc0df9bc2095f00af43b0614144cedabfdb9341d87bc593ecd8710c"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/julesTopRun1_20170902/storedOptimRaw_trajectory.mat",
+      "sha256": "ed69dad5b402d43af109bbff70db400f9ac2b90789d14b030b7996c642359286"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyRun_20190305/3DLurePos.mat",
+      "sha256": "7d8d12c284f0cddd0a928843607022ec8074856ec49172e5ff544e88609dbb3f"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyRun_20190305/3DLurePos_full.mat",
+      "sha256": "7d8d12c284f0cddd0a928843607022ec8074856ec49172e5ff544e88609dbb3f"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyRun_20190305/MonteCarloResults/mcMain_lilyRun_20190305.mat",
+      "sha256": "be6bbb952daf2625e3fc75c67ff14ec4d9622839fde3c9f59e27a2747f087fd3"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyRun_20190305/storedOptimRaw_trajectory.mat",
+      "sha256": "1e1eeff3e08298b5acbbbd3b70027d17edad3a19f1aab62cb79b0abc9d949da6"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyTopRun1_20171221/3DLurePos.mat",
+      "sha256": "2cf02c233f5c54ede673a1bd47d563d6033672742ba77422d1a025eb11b68023"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyTopRun1_20171221/3DLurePos_full.mat",
+      "sha256": "2cf02c233f5c54ede673a1bd47d563d6033672742ba77422d1a025eb11b68023"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyTopRun1_20171221/MonteCarloResults/mcMain_lilyTopRun1_20171221.mat",
+      "sha256": "da1c2ad801608f052251c345a7cf4545577ddb537a503be4eea91f159abab0b1"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/lilyTopRun1_20171221/storedOptimRaw_trajectory.mat",
+      "sha256": "8d8efbc66cd99ae6cd514581f435b2a1c6cc65353589d84c8ce5f15ebe7933f3"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/menyaRun_20190307/3DLurePos.mat",
+      "sha256": "2040a73b22264763a758c0ce4acb5610ea74bcb7d89af18195521e373535ccbf"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/menyaRun_20190307/3DLurePos_full.mat",
+      "sha256": "2040a73b22264763a758c0ce4acb5610ea74bcb7d89af18195521e373535ccbf"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/menyaRun_20190307/MonteCarloResults/mcMain_menyaRun_20190307.mat",
+      "sha256": "f6b323938978be8bb7c14018c78b82182c47f02f426570806b52f0e64fd3f180"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/menyaRun_20190307/storedOptimRaw_trajectory.mat",
+      "sha256": "a4058aacee2d6180025e4b3ba59bb3e6fb7c0786087e7f3ccf832075e3164b41"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomRun_20190307/3DLurePos.mat",
+      "sha256": "c20cfb6a8afc2aeddccea1908a41b0e717042c2070ef207733e86a014e0b3604"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomRun_20190307/3DLurePos_full.mat",
+      "sha256": "c20cfb6a8afc2aeddccea1908a41b0e717042c2070ef207733e86a014e0b3604"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomRun_20190307/MonteCarloResults/mcMain_phantomRun_20190307.mat",
+      "sha256": "b771ba4e85b6d12b8454df686fd7752a6d517f5461e378356014ccb013a5b3f5"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomRun_20190307/storedOptimRaw_trajectory.mat",
+      "sha256": "6418d1a35fc8f1d7fe464915046c9c273bd605cd487beb149e491fbf3830504c"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun11_20170902/3DLurePos.mat",
+      "sha256": "ea6555eb5c42205450d0c316b617065a0889f03551d5f2aa8905b678847793d6"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun11_20170902/3DLurePos_full.mat",
+      "sha256": "ea6555eb5c42205450d0c316b617065a0889f03551d5f2aa8905b678847793d6"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun11_20170902/MonteCarloResults/mcMain_phantomTopRun11_20170902.mat",
+      "sha256": "96239fa1582fbbd90b052ab16889efadf60cab4812c08c7ce9209776ae08bf3b"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun11_20170902/storedOptimRaw_trajectory.mat",
+      "sha256": "28b923f7259302f6e68b6f8bddaa514b40bd36c44d84e2528184ed2c934c3cf8"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun13_20170902/3DLurePos.mat",
+      "sha256": "3193c8acfa4fa6ca802630072d8d091b3ba5671a49cc19bf2b84466165947c03"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun13_20170902/3DLurePos_full.mat",
+      "sha256": "3193c8acfa4fa6ca802630072d8d091b3ba5671a49cc19bf2b84466165947c03"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun13_20170902/MonteCarloResults/mcMain_phantomTopRun13_20170902.mat",
+      "sha256": "ff474051d9d82f5aba43406f13f85b6a818eb39f5dd531537b781ca2b41c788e"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun13_20170902/storedOptimRaw_trajectory.mat",
+      "sha256": "3ee7b7dcaeb6b848577ab26d8f52cbcd322e452d580c9554fe319acd2f1e156d"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun1_20170903/3DLurePos.mat",
+      "sha256": "a909774b1fefce6a70ed07968fd037f5594350959a706df0f580654e616c4dba"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun1_20170903/3DLurePos_full.mat",
+      "sha256": "a909774b1fefce6a70ed07968fd037f5594350959a706df0f580654e616c4dba"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun1_20170903/MonteCarloResults/mcMain_phantomTopRun1_20170903.mat",
+      "sha256": "c4def41688407b6995e50fd71dc0d4d1fa15a29ba12e6a4ff16d2bfc0cde5715"
+    },
+    {
+      "file": "data/analysis_cache/pitch_tracking/phantomTopRun1_20170903/storedOptimRaw_trajectory.mat",
+      "sha256": "b2979f10f4e3c4e26da2359d5e7084cfa6c8336e0e60229b7091ebfcea70adc9"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesFlick1_20190309/3DLurePos.mat",
+      "sha256": "9c0746f086f1b655379e3107fe21a6def59bcdcd92eaf4fa28d277fa3d9f3204"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesFlick1_20190309/3DLurePos_full.mat",
+      "sha256": "9c0746f086f1b655379e3107fe21a6def59bcdcd92eaf4fa28d277fa3d9f3204"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesFlick1_20190309/MonteCarloResults/mcMain_julesFlick1_20190309.mat",
+      "sha256": "cca7509e65a2aa85400c534f6cb8551c806d0e67f9fe466d16d4992bb190fba2"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesFlick1_20190309/storedOptimRaw_trajectory.mat",
+      "sha256": "961f8a921bb20f64f785ed793f3465ef635d1cdb28885275e7cebc300aeb9ce9"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun11_20170829/3DLurePos.mat",
+      "sha256": "7d4fd80c5a8725f5513f9690d00bc0d140da723fa5373f3ce92b26c7b549d2d3"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun11_20170829/3DLurePos_full.mat",
+      "sha256": "7d4fd80c5a8725f5513f9690d00bc0d140da723fa5373f3ce92b26c7b549d2d3"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun11_20170829/MonteCarloResults/mcMain_julesTopRun11_20170829.mat",
+      "sha256": "d2082189c07f162f1ff2b6cc4547fa256b7fe2b3ace24d2365a4f6990f703839"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun11_20170829/storedOptimRaw_trajectory.mat",
+      "sha256": "0fe82f53c3de987a0d2ea14429439e5868e56bce7e6fd9a0d000252d8b88f24a"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun1_20171209/3DLurePos.mat",
+      "sha256": "dde2fc6b7fffb6d14c5c4eecf86759a0b339404b2910d2552317ef9cac127ec3"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun1_20171209/3DLurePos_full.mat",
+      "sha256": "dde2fc6b7fffb6d14c5c4eecf86759a0b339404b2910d2552317ef9cac127ec3"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun1_20171209/MonteCarloResults/mcMain_julesTopRun1_20171209.mat",
+      "sha256": "ad03deae17a3af186231d7d52887d0f95f5943e8dd38462e21f5953f3faf280f"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/julesTopRun1_20171209/storedOptimRaw_trajectory.mat",
+      "sha256": "c8af2c075635ea2924495efeba7bdc4d332762e902c265de34b17e43580ba15e"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/lilyRun_20190309/3DLurePos.mat",
+      "sha256": "6c3b18c474f6106c8976870421b30bc1a5a8b00df74f3cc196f9ea67db334369"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/lilyRun_20190309/3DLurePos_full.mat",
+      "sha256": "6c3b18c474f6106c8976870421b30bc1a5a8b00df74f3cc196f9ea67db334369"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/lilyRun_20190309/MonteCarloResults/mcMain_lilyRun_20190309.mat",
+      "sha256": "ca94e332d3ec461b456c8e1600d4f29b0ebb1c6e13806ad958a47b369d273572"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/lilyRun_20190309/storedOptimRaw_trajectory.mat",
+      "sha256": "ae946aa8e6d9cc649b7d14324e96234533387403860484f8cc0e60363109b384"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/phantomRun_20190303/3DLurePos.mat",
+      "sha256": "82ebc0de6f20355d0275e57157a5b5cafb9ce1a00d0d50cbbdd1218fc508f43e"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/phantomRun_20190303/3DLurePos_full.mat",
+      "sha256": "82ebc0de6f20355d0275e57157a5b5cafb9ce1a00d0d50cbbdd1218fc508f43e"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/phantomRun_20190303/MonteCarloResults/mcMain_phantomRun_20190303.mat",
+      "sha256": "bdc6556361673e452dc485e9760e51bc4bdd833a4dbc8938655d501c9f3e5340"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/phantomRun_20190303/storedOptimRaw_trajectory.mat",
+      "sha256": "59cc2ecc7302b6238099c0da3cbcdc145d8f82ff798125c4725cb7bf27e2156d"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170829/3DLurePos.mat",
+      "sha256": "8a1b407c39b560ddb3daf2cf02ba73729ca08da03cbf8d22a6cb44b2b56bff6a"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170829/3DLurePos_full.mat",
+      "sha256": "8a1b407c39b560ddb3daf2cf02ba73729ca08da03cbf8d22a6cb44b2b56bff6a"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170829/MonteCarloResults/mcMain_zorroBottomFlick2_20170829.mat",
+      "sha256": "8dd71ece263feccd405649431e410b9d94de1b8f1b997b5c67c20c7ea33d796f"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170829/storedOptimRaw_trajectory.mat",
+      "sha256": "39f3f15a82a4a0493fee5a1edc8cff835e2bbc28eb896e27b47f27984d67bd63"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170903/3DLurePos.mat",
+      "sha256": "e44b86eee3b49d84d364335e89eb21efdb504aa0e17b26fe80a6174bf524cd5e"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170903/3DLurePos_full.mat",
+      "sha256": "e44b86eee3b49d84d364335e89eb21efdb504aa0e17b26fe80a6174bf524cd5e"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170903/MonteCarloResults/mcMain_zorroBottomFlick2_20170903.mat",
+      "sha256": "3c640dcc3b944f9270afc76248e956f9d8589b447906d40e1dcadafe334111c6"
+    },
+    {
+      "file": "data/analysis_cache/yaw_tracking/zorroBottomFlick2_20170903/storedOptimRaw_trajectory.mat",
+      "sha256": "d663704eac0c3c173f44e1d20fe753881b40d55d38556958d00bfd084f725cc7"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "julesBottomFlick2_20171209",
+  "fps": 90,
+  "frames": 69,
+  "elapsed_seconds": 198.491808,
+  "matlab_version": "26.1.0.3203278 (R2026a)",
+  "input_folder": "data/inputs/julesBottomFlick2_20171209",
+  "reference_shared_frames": 69,
+  "reference_frames": 69,
+  "identical_frame_coverage": true,
+  "max_head_axis_difference_deg": 0,
+  "max_torso_axis_difference_deg": 0,
+  "max_head_origin_difference_m": 0,
+  "max_torso_origin_difference_m": 0
+}

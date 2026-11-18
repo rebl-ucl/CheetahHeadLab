@@ -1,0 +1,430 @@
+{
+  "source_project": "CheetahHeadLab_core",
+  "source_checkout_commit": "1b4c7ab93835d4657864a2559fec977f4b613dc7",
+  "note": "Working-tree snapshot; uncommitted source changes are identified by per-file hashes. This commit alone does not identify the source snapshot. source_file records the original checkout path, including historical directory names; file is the current release path. Analysis entry points preserve the manuscript cohorts. Newly authored wrappers and adapters are covered by SHA256SUMS.",
+  "files": [
+    {
+      "file": "CRBR/reconstruction/ASseedResidualFromModel.m",
+      "source_sha256": "c41e4677bd9c9e4b3b0db59a287b96d22e1dd1ab3f92ced4ee4b03e2ad0cf794",
+      "release_sha256": "c41e4677bd9c9e4b3b0db59a287b96d22e1dd1ab3f92ced4ee4b03e2ad0cf794",
+      "unchanged": true,
+      "source_file": "Tri-MBO/ASseedResidualFromModel.m"
+    },
+    {
+      "file": "CRBR/reconstruction/cameraTrustLOO.m",
+      "source_sha256": "4a71f7692078676a7059ae8ef8594f3a75b784990c13c62b9a89f87474095e88",
+      "release_sha256": "4a71f7692078676a7059ae8ef8594f3a75b784990c13c62b9a89f87474095e88",
+      "unchanged": true,
+      "source_file": "Tri-MBO/cameraTrustLOO.m"
+    },
+    {
+      "file": "CRBR/reconstruction/cheetah3D.m",
+      "source_sha256": "3d9ea6cffae9bee1b17f397f257e1ac3a4ffc5983e0f77182aecbbc70cb234b1",
+      "release_sha256": "3d9ea6cffae9bee1b17f397f257e1ac3a4ffc5983e0f77182aecbbc70cb234b1",
+      "unchanged": true,
+      "source_file": "Tri-MBO/cheetah3D.m"
+    },
+    {
+      "file": "CRBR/reconstruction/cheetahError.m",
+      "source_sha256": "76e191ee20485c309d9140ed66b491d2913b22e83d3fcf0498c71966bbb74106",
+      "release_sha256": "76e191ee20485c309d9140ed66b491d2913b22e83d3fcf0498c71966bbb74106",
+      "unchanged": true,
+      "source_file": "Tri-MBO/cheetahError.m"
+    },
+    {
+      "file": "CRBR/reconstruction/estimateScales.m",
+      "source_sha256": "ef5e04369f876651a17ffd199ca5f0a2e2769ab28554d09bc709477a2f231f74",
+      "release_sha256": "11346576df64a149e69b32546168d2bdef899ef719172367c0319fedf980acb1",
+      "unchanged": false,
+      "source_file": "Tri-MBO/estimateScales.m"
+    },
+    {
+      "file": "CRBR/reconstruction/multiviewRecon.m",
+      "source_sha256": "a977214f64be2f3f64946d20f70b74d971a7fd2c30a2ff06d70969561cdd93a8",
+      "release_sha256": "d0ca233498f7862ce494f10c8cc977797d0560bf90f03e92fabcdddd92ff1273",
+      "unchanged": false,
+      "source_file": "Tri-MBO/multiviewRecon.m"
+    },
+    {
+      "file": "CRBR/reconstruction/plotCameraConfig6.m",
+      "source_sha256": "ed71936b88520d304389df79742bdb31881547f492fe85ccc5163ae80588183b",
+      "release_sha256": "7be5ff35abbc3beba761aa439949459589b6b51c522e816f14d1091b2de80353",
+      "unchanged": false,
+      "source_file": "Tri-MBO/plotCameraConfig6.m"
+    },
+    {
+      "file": "CRBR/reconstruction/plotCameraConfigLT6.m",
+      "source_sha256": "33316147e4ac68892d445326f0285cc9bef057aa9f45c2e4d6f5669d0c7b78c8",
+      "release_sha256": "3357f887f329964d38c9c9da60cc3dd2cb5789166a29a914bd8c525c8c5e1e45",
+      "unchanged": false,
+      "source_file": "Tri-MBO/plotCameraConfigLT6.m"
+    },
+    {
+      "file": "CRBR/reconstruction/plotCheetah.m",
+      "source_sha256": "52ad1ca918dbe641f80eb61462d6645bbfb445859b33110285d6d9d91089afc9",
+      "release_sha256": "52ad1ca918dbe641f80eb61462d6645bbfb445859b33110285d6d9d91089afc9",
+      "unchanged": true,
+      "source_file": "Tri-MBO/plotCheetah.m"
+    },
+    {
+      "file": "CRBR/reconstruction/plotTriangulatedCheetah.m",
+      "source_sha256": "ee6ba978ea4f6904b010732cf62c2387f5588fee834a20349854438bb1366930",
+      "release_sha256": "66a0ed0a589c34deddf3a390b4aa9455478fe1142a041d5f73a153861ad91fca",
+      "unchanged": false,
+      "source_file": "Tri-MBO/plotTriangulatedCheetah.m"
+    },
+    {
+      "file": "CRBR/reconstruction/plotTriangulatedCheetah2D.m",
+      "source_sha256": "1f6ce9fb79368686b09d0057b0fe566d14cb6ee327a32ffbe2e10b483d00f772",
+      "release_sha256": "1f6ce9fb79368686b09d0057b0fe566d14cb6ee327a32ffbe2e10b483d00f772",
+      "unchanged": true,
+      "source_file": "Tri-MBO/plotTriangulatedCheetah2D.m"
+    },
+    {
+      "file": "CRBR/reconstruction/reconPerFrame.m",
+      "source_sha256": "1725a6e2e7c95a24e401736c0ae547fd0a8db84268e6f017a1a949cabf2d492e",
+      "release_sha256": "cbd242d0c6d22e46d98d2ba7419ceb371a8b52ec7bfac99fa480dffa29ee275d",
+      "unchanged": false,
+      "source_file": "Tri-MBO/reconPerFrame.m"
+    },
+    {
+      "file": "CRBR/reconstruction/reconTrajectoryBatch.m",
+      "source_sha256": "2f8804855e008279a2eff6ddc3329c8294a2508f5eaf927245edb9d249d9f521",
+      "release_sha256": "4feb6be3c45b34ea5e907753abe70ba264a751f75559be1ec9fb2e3d9991f84d",
+      "unchanged": false,
+      "source_file": "Tri-MBO/reconTrajectoryBatch.m"
+    },
+    {
+      "file": "CRBR/reconstruction/undistortBlenderLabels.m",
+      "source_sha256": "28a12dfd66b249dc037e4c2941b73dcb3ba5da1453ddff4bf402a22e5e41e0cb",
+      "release_sha256": "28a12dfd66b249dc037e4c2941b73dcb3ba5da1453ddff4bf402a22e5e41e0cb",
+      "unchanged": true,
+      "source_file": "Tri-MBO/undistortBlenderLabels.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcFilterAngleSeries.m",
+      "source_sha256": "2bce2ef0fa18582ce98c7375ba4467465a390b37dc2e3336f1479f23843649c4",
+      "release_sha256": "2bce2ef0fa18582ce98c7375ba4467465a390b37dc2e3336f1479f23843649c4",
+      "unchanged": true,
+      "source_file": "MonteCarloAnalysis/mcFilterAngleSeries.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcGeomFromOffsets.m",
+      "source_sha256": "1b3b0b7dd6eee6e257a893c08ae0b7a3488c198d488bcb0c9216c192cacefdd8",
+      "release_sha256": "d1a15a7a9b7c8678e6807f820b55777d302cf8b0bdd1df672109d77348b2146e",
+      "unchanged": false,
+      "source_file": "MonteCarloAnalysis/mcGeomFromOffsets.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcLoadDataset.m",
+      "source_sha256": "dce1d6a44981f62036da676550d770b952bc4b6ca9b2b3b9c20efe48838cbc68",
+      "release_sha256": "59241bfa1376ad379c4b6306dcd3ec2742ef9414fe80bc94e57a731639d7bb49",
+      "unchanged": false,
+      "source_file": "MonteCarloAnalysis/mcLoadDataset.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcLureTriangulate.m",
+      "source_sha256": "3baf0c3d69ff7adcc1c5252100ba7be48f179047d2861889243ab1179ee038a6",
+      "release_sha256": "3baf0c3d69ff7adcc1c5252100ba7be48f179047d2861889243ab1179ee038a6",
+      "unchanged": true,
+      "source_file": "MonteCarloAnalysis/mcLureTriangulate.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcMainAnalysis.m",
+      "source_sha256": "4e6b1e9c2fa2a606ce4fa13ffa8d65d5ed9bb8fe086d8f5cc88ce9707c2ffa3a",
+      "release_sha256": "1190e0a8bf06ec89c017888f363c5e90d3f87d348e590c3f32f52003e5cd2522",
+      "unchanged": false,
+      "source_file": "MonteCarloAnalysis/mcMainAnalysis.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcMainAngles.m",
+      "source_sha256": "93e7a2791554a43cd8340bfee061f5a6b37e92dbd32bcbedeb96f6b143e1b08d",
+      "release_sha256": "92992109476aa4632675bccb722a03e8a08ca88242105be87058a037a5453ac8",
+      "unchanged": false,
+      "source_file": "MonteCarloAnalysis/mcMainAngles.m"
+    },
+    {
+      "file": "CRBR/uncertainty/mcMainResidual.m",
+      "source_sha256": "054a9594cae03dcc6d1890b13a6f89426353f57968751c7d316fadb41014bbb2",
+      "release_sha256": "f9ad7d2f750bf6233efdd7423f819d5a9dc759d61e60dade59813ee4334b39ea",
+      "unchanged": false,
+      "source_file": "MonteCarloAnalysis/mcMainResidual.m"
+    },
+    {
+      "file": "CRBR/lure/lureReconTriangulation.m",
+      "source_sha256": "3d2323879021038458aa97c5550dc764107074c201f6d8c4a63853623782888f",
+      "release_sha256": "f343aa3a5877e787e39d9600b9f23349535763ea3f5c921e6ff57c9b232313ec",
+      "unchanged": false,
+      "source_file": "LureAnalysis/lureReconTriangulation.m"
+    },
+    {
+      "file": "CRBR/selfcalibration/scripts/run_selfcalib.py",
+      "source_sha256": "09492a43c6efca20586a7815217f716a59a9c2e345590666a424f2222afccfdb",
+      "release_sha256": "6d4d8f464250ba9eb46b11a91fa5283bae33ede286117308346985b84db9c245",
+      "unchanged": false,
+      "source_file": "SelfCalib/scripts/run_selfcalib.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/camera.py",
+      "source_sha256": "b47ac80a7b60ffa008e50a7c3893623002decb40c5b0b0b265236bcbab5d92b7",
+      "release_sha256": "b47ac80a7b60ffa008e50a7c3893623002decb40c5b0b0b265236bcbab5d92b7",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/camera.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/dataset.py",
+      "source_sha256": "cfcd4995daf1cad9a2f97f2a13de5233398cf60f9a0bbe2d7b4a9a64f5254c66",
+      "release_sha256": "33ec4bd414f44f82cebccc4a1a57d233024790df8aa760e031c3176738d611a4",
+      "unchanged": false,
+      "source_file": "SelfCalib/selfcalib/dataset.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/diagnostics.py",
+      "source_sha256": "5518eb94a2874048d08a5c3d928be0f8c8948cfd3df0049ad140399aeb4ea0fa",
+      "release_sha256": "5518eb94a2874048d08a5c3d928be0f8c8948cfd3df0049ad140399aeb4ea0fa",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/diagnostics.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/evaluate.py",
+      "source_sha256": "e6eabc34b64a3711a0210dc8ce67c03add16e9402f00fba909e58a23d5349f1c",
+      "release_sha256": "e6eabc34b64a3711a0210dc8ce67c03add16e9402f00fba909e58a23d5349f1c",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/evaluate.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/export.py",
+      "source_sha256": "de779b4e3111d861d33d8497ab64f7044142fba9d8f37f0d5acea3bb5995d892",
+      "release_sha256": "a1d8bf8a7e44a0e2f3e61f420f556f0863b9828f0bd4e961becd048a1bba3ac1",
+      "unchanged": false,
+      "source_file": "SelfCalib/selfcalib/export.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/model.py",
+      "source_sha256": "b2cf487686ac176bbbd26427e42cc9707108d70d62c213f6f23002daefedb8a5",
+      "release_sha256": "52e0f13da4231de0b2345a53d7ffb9bfb9458162bc692127d44cd40d9e838e1a",
+      "unchanged": false,
+      "source_file": "SelfCalib/selfcalib/model.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/pipeline.py",
+      "source_sha256": "f23ac09db3b7bbb6ba05670f3ac0242706767e39c1dbb95b93260e2716ef5900",
+      "release_sha256": "f23ac09db3b7bbb6ba05670f3ac0242706767e39c1dbb95b93260e2716ef5900",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/pipeline.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/posefit.py",
+      "source_sha256": "f2f5c07b36270467499230e49d466aaab84777eb2d60a232cfd7ef717f357110",
+      "release_sha256": "f2f5c07b36270467499230e49d466aaab84777eb2d60a232cfd7ef717f357110",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/posefit.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/stba.py",
+      "source_sha256": "ef55515062ab2e488cf646fcf606f76f4202952b00171ed361e919383042a585",
+      "release_sha256": "ef55515062ab2e488cf646fcf606f76f4202952b00171ed361e919383042a585",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/stba.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/sync.py",
+      "source_sha256": "d2f4cd312779e5dd6d0778fa63933e6be313eed71fae08c96082ce004e2a4203",
+      "release_sha256": "d2f4cd312779e5dd6d0778fa63933e6be313eed71fae08c96082ce004e2a4203",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/sync.py"
+    },
+    {
+      "file": "CRBR/selfcalibration/selfcalib/triangulate.py",
+      "source_sha256": "09ce6cfcbb6a84baba3f124aafa49a3cd3309b73e99ffa6755ae0c0fe94a33db",
+      "release_sha256": "09ce6cfcbb6a84baba3f124aafa49a3cd3309b73e99ffa6755ae0c0fe94a33db",
+      "unchanged": true,
+      "source_file": "SelfCalib/selfcalib/triangulate.py"
+    },
+    {
+      "file": "PitchAnalysis/pitchTightnessAnalysis.m",
+      "source_file": "LureAnalysis/pitch_analysis/pitchTightnessAnalysis.m",
+      "source_sha256": "5f8454b3e4526d0ef185587b535a0c50f13ab191c600709fe91d9b21c2d8084c",
+      "release_sha256": "c4f10aa7ce57729b3adc5401f85ae836052d22991bd0a06a9c51bc82f4958124",
+      "unchanged": false
+    },
+    {
+      "file": "PitchAnalysis/pitchControlModelAnalysis.m",
+      "source_file": "LureAnalysis/pitch_analysis/pitchControlModelAnalysis.m",
+      "source_sha256": "a15ceef449936024c2fd0beaba56aeb41745be4ea7a22fd2c76f1dad21fc7a80",
+      "release_sha256": "5fdd001ef0ee63d823af435ba20e0216a8c43b013011433595a20cba8e1fdf0a",
+      "unchanged": false
+    },
+    {
+      "file": "PitchAnalysis/plot_pitch.py",
+      "source_file": "pursuitAnalysis/exploratory/pitch_figure_refresh_20261028/render_figures.py",
+      "source_sha256": "2e8f5072c680abe096ee44d96f9bc2c64aa97996e153e864d78ee14f2185779f",
+      "release_sha256": "f61a8529f3fb8774c9ff61d23bbd76e884a3159765b29e212d343a57b8247e01",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/yawDistributionAnalysis.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/yawDistributionAnalysis.m",
+      "source_sha256": "aa654151f204bdbd98244261563c2647b228ba9882af842b739a1b6860ac94f0",
+      "release_sha256": "d16b732be7906f49c9046e1709a4e886876ee1344998c68fdd4736dd545be9ae",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plotYawAbsoluteErrorEcdf.py",
+      "source_file": "pursuitAnalysis/yaw_analysis/plotYawAbsoluteErrorEcdf.py",
+      "source_sha256": "05932faa5179a9b44534fbda14eb2718929ad3cd31a321ec6d634d786139b3e0",
+      "release_sha256": "d8034d53f73ce2148bc6ce6b7e38a3650d8090fbddf8de65dc25c870ad2b50d7",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plotYawAbsoluteErrorEcdfYawOnly.py",
+      "source_file": "pursuitAnalysis/yaw_analysis/plotYawAbsoluteErrorEcdfYawOnly.py",
+      "source_sha256": "5503e067214b4b6611b0647cb5630d493923656039d88d6b7a707348561a7535",
+      "release_sha256": "6f67fc8acbcd4620c92fe65a1d8343c599ef6e804204d106225eb3c6c0acb667",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plotYawAbsoluteErrorEcdfYawOnlyAnimalEqual.py",
+      "source_file": "pursuitAnalysis/yaw_analysis/plotYawAbsoluteErrorEcdfYawOnlyAnimalEqual.py",
+      "source_sha256": "25a62379598768406a1c94bcff1911acd982405243ad98805d187d677e79fa9f",
+      "release_sha256": "e028db4afdc6b7d52ad86582329a4452405753bbf6546cd4bb31db6d8f60f735",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plotYawSignedErrorDistributionLateralOnly.py",
+      "source_file": "pursuitAnalysis/yaw_analysis/plotYawSignedErrorDistributionLateralOnly.py",
+      "source_sha256": "8132ecb4e65ce959fb7710dac5c39de6c5581cf6f48cb2bd9969b2570b9425bd",
+      "release_sha256": "a32cec41b21fd929418385486a02d7dce3b868cc2b567448743fd5247719d3d0",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/yawSpatialLookAheadAnalysis.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/yawSpatialLookAheadAnalysis.m",
+      "source_sha256": "f2ccf2dd8a7cad5330fb55ac81689adf0d496b0c9a641977e67ace442f55babc",
+      "release_sha256": "34fb295c54715556284d7d9b2ae2f589232ee5dcaede9d93d2fd285c7f5e827c",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/yawSpatialLookAheadMonteCarloAnalysis.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/yawSpatialLookAheadMonteCarloAnalysis.m",
+      "source_sha256": "b8832eadc183ed17fac83a43fc6eec3184bc5b8c6f43982fb640fb7f1890a309",
+      "release_sha256": "541ed26105d9aa5355c3f710e1d98147bd5d1d6b12b581948f356c36d02a5a9a",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/spatialForwardExtension.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/spatialForwardExtension.m",
+      "source_sha256": "353a2cc3e334fa32759b619fac2d8a6acdcc8f6f8a406e56d087a24c49bc7e7b",
+      "release_sha256": "353a2cc3e334fa32759b619fac2d8a6acdcc8f6f8a406e56d087a24c49bc7e7b",
+      "unchanged": true
+    },
+    {
+      "file": "YawAnalysis/spatialTerminalDirection.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/spatialTerminalDirection.m",
+      "source_sha256": "c3c92bce8f717a3d550c318e718997a5986617a4828c4777df9c48dcf593a94e",
+      "release_sha256": "c3c92bce8f717a3d550c318e718997a5986617a4828c4777df9c48dcf593a94e",
+      "unchanged": true
+    },
+    {
+      "file": "YawAnalysis/plotSpatialLeadRatioAcrossPursuits.m",
+      "source_file": "pursuitAnalysis/yaw_analysis/plotSpatialLeadRatioAcrossPursuits.m",
+      "source_sha256": "0d08210f05a2add3ef7ce3956594d2e588f9209cfe7951c45833e6c11261d268",
+      "release_sha256": "6bc40da0947fdfcf74799928ec5cf914ff09519a56e49e77be82b5b4d86efa47",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/headTorsoHandoff.m",
+      "source_file": "pursuitAnalysis/head_torso_handoff/headTorsoHandoff.m",
+      "source_sha256": "718a952bfc7fcf2dd403444b0860c0b5fa8d7df07d1b803ffd1ab212cfd2f2fd",
+      "release_sha256": "31f82511cd3390b1db3892c554d076f7c47b1ced223d6bb52e7aafc78b48d3d6",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plotHeadTorsoHandoff.m",
+      "source_file": "pursuitAnalysis/head_torso_handoff/plotHeadTorsoHandoff.m",
+      "source_sha256": "a843192c193e8653d8a400516f03e4f05256eb90f2428ec705cb7bc7807251ff",
+      "release_sha256": "6f80ce796677a7b2b512a12f013831878beb7ce354ff2d0b78984ec1a9bf21d8",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/yawSampleGeometry.m",
+      "source_file": "pursuitAnalysis/exploratory/yaw_ahead_criterion_20261026/validateAheadCriterion.m",
+      "source_sha256": "07116fd309af469c5341eb6a3c443fae56d49ee188e5a8b70786343e457e2204",
+      "adaptation": "Extracted sampleGeometry and local helpers unchanged; renamed entry function.",
+      "release_sha256": "e86488aac3e4e0e337efdbcc2a7017842b80f89152ee84115817c385681e0d25",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/plot_yaw_geometry.py",
+      "source_file": "pursuitAnalysis/exploratory/yaw_geometry_figures_20261025/plot_yaw_geometry.py",
+      "source_sha256": "e8dee188462cf289a1662f92a7a422eed1471118516770b7b0d8a50a780bb9dd",
+      "release_sha256": "4a9f1de413d9a5da928d6be20b5bf7ce0348bfe55cdc860cd68e95edd6c636fd",
+      "unchanged": false
+    },
+    {
+      "file": "YawAnalysis/compare_models.py",
+      "source_file": "pursuitAnalysis/exploratory/yaw_candidate_models_20261027/compare_models.py",
+      "source_sha256": "82a774be48497361cf84eddbe76f683496f7e2758ba8e692b4a1cc7393ea9345",
+      "adaptation": "Four manuscript models and lateral-pursuit comparison only; portable paths.",
+      "release_sha256": "6eda7af73a96adb1bee247d4a9cb86cec14192ba2134bedd59953ddf8651cac8",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/pitch_ecdf.csv",
+      "source_file": "pursuitAnalysis/exploratory/pitch_figure_refresh_20261028/outputs/tightness_run_equal/pitch_absolute_error_ecdf.csv",
+      "source_sha256": "06bc22c400f0450b33de2d7b5172d2b5a0694aee6d883d3a181287e6d04560bd",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "fa350f36c8f4411e2893b4249eb41e398a8a8c56dc91fcc8e8c2ced57c2345a7",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/pitch_centred.csv",
+      "source_file": "pursuitAnalysis/exploratory/pitch_figure_refresh_20261028/outputs/tightness_run_equal/pitch_centered_error_distribution.csv",
+      "source_sha256": "40046c6e10cf9f5d9b68ad747f0fb5f9f86d206750349cba0f8f83a7f2833555",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "5726a141b02ee9829bda49f98f9220ed4fa3cb5c1091af7d31febe9dec91cbe0",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/pitch_gains.csv",
+      "source_file": "pursuitAnalysis/exploratory/pitch_figure_refresh_20261028/outputs/mechanism/pitch_control_model_by_run.csv",
+      "source_sha256": "379e7503fdf112436d877c3f5be8d2a4294d2ba831786e161fc071f3616f2c4d",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "6e39efc659ec9ae36bd92575c27c3c53d82c60ad589f6f49794f4219c3dd00cf",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/yaw_ecdf.csv",
+      "source_file": "pursuitAnalysis/yaw_analysis/results/yaw_tracking_only/yaw_absolute_error_ecdf.csv",
+      "source_sha256": "c3c8d355b5e259725c573ff07ab5aeedabcdc010488064aec75648acbc0aa1e1",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "4059ca50ea47c2160acf31b093822c4963122344517d8ebc7290722d724d3f50",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/yaw_geometry.csv",
+      "source_file": "pursuitAnalysis/exploratory/yaw_geometry_figures_20261025/outputs/geometry_by_run.csv",
+      "source_sha256": "0089ff04f2ff430ce0ab05fc96c5318f981a3136e36e59b2330aa7e223f5b69d",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "9ab4fe0b0d98b31e09019b91521470d7597038583ab0cb4501b56adac3aabacf",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/yaw_models.csv",
+      "source_file": "pursuitAnalysis/exploratory/yaw_candidate_models_20261027/outputs/summary.csv",
+      "source_sha256": "d7c86a2fee744830b0ff15d7edade7d9d4e58861293817c8aedb33ba756f6e02",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "5efd53a112af85c0d32a7b4262363351e9a4b61ac59be0869c10a863d9ab77b2",
+      "unchanged": false
+    },
+    {
+      "file": "reference/analysis/yaw_spatial.csv",
+      "source_file": "pursuitAnalysis/yaw_analysis/results_spatial_lookahead/spatial_lead_ratio_summary_by_run.csv",
+      "source_sha256": "7d744c8fa29b5227a14d29976b8f0357457a0a160c9229d535aa4cd3f62d355c",
+      "adaptation": "Selected manuscript rows and columns for numerical regression checks.",
+      "release_sha256": "472b0c93c418c4d6093617c992b8128b4e7650837a174df635fba0172954fe4b",
+      "unchanged": false
+    }
+  ],
+  "release_layout": "CRBR contains selfcalibration, reconstruction, lure and uncertainty stages."
+}

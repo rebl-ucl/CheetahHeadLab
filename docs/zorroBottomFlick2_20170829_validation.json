@@ -1,0 +1,15 @@
+{
+  "dataset": "zorroBottomFlick2_20170829",
+  "fps": 90,
+  "frames": 35,
+  "elapsed_seconds": 112.318573,
+  "matlab_version": "26.1.0.3203278 (R2026a)",
+  "input_folder": "data/inputs/zorroBottomFlick2_20170829",
+  "reference_shared_frames": 35,
+  "reference_frames": 35,
+  "identical_frame_coverage": true,
+  "max_head_axis_difference_deg": 0.0008853572024506527,
+  "max_torso_axis_difference_deg": 0.12317240916913899,
+  "max_head_origin_difference_m": 1.5555006307612653e-06,
+  "max_torso_origin_difference_m": 0.015473028961595522
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "julesBottomFlick2_20171209",
+  "draws": 2,
+  "successful_draws": 2,
+  "frames": 69,
+  "all_pose_parameters_finite": true,
+  "max_nominal_rerun_difference_deg": 0.0,
+  "seed": 1,
+  "parallel": false
+}

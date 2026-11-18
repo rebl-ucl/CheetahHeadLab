@@ -1,0 +1,60 @@
+[
+  {
+    "reference": "pitch_ecdf.csv",
+    "output": "pitch/tightness_run_equal/pitch_absolute_error_ecdf.csv",
+    "keys": [
+      "absoluteErrorDeg"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "pitch_centred.csv",
+    "output": "pitch/tightness_run_equal/pitch_centered_error_distribution.csv",
+    "keys": [
+      "centeredErrorDeg"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "pitch_gains.csv",
+    "output": "pitch/mechanism/pitch_control_model_by_run.csv",
+    "keys": [
+      "datasetKey",
+      "requestedCorrectionDelaySec"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "yaw_ecdf.csv",
+    "output": "yaw/yaw_tracking_only/yaw_absolute_error_ecdf.csv",
+    "keys": [
+      "absoluteYawDeg"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "yaw_geometry.csv",
+    "output": "yaw/geometry/geometry_by_run.csv",
+    "keys": [
+      "dataset"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "yaw_models.csv",
+    "output": "yaw/models/summary.csv",
+    "keys": [
+      "scheme",
+      "model"
+    ],
+    "optional": false
+  },
+  {
+    "reference": "yaw_spatial.csv",
+    "output": "yaw/spatial/spatial_lead_ratio_summary_by_run.csv",
+    "keys": [
+      "dataset"
+    ],
+    "optional": true
+  }
+]

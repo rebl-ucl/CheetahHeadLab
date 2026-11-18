@@ -1,0 +1,135 @@
+{
+  "scope": "Numerical panels exported by the standard release analysis workflow. Composite assembly and missing panels are described in docs/FIGURE_COVERAGE.md.",
+  "manuscript_sources": {
+    "main.tex": "7d088420342259996c6fe603f20b738e0ddbb32e7116c42c770a462d934cc377",
+    "supp.tex": "5a2b2cbf0d5f346647a3768b815f1b2d69d48778020a327541a6ca4c2e119b5d"
+  },
+  "output_root": "outputs",
+  "allowed_formats": [
+    ".png",
+    ".pdf",
+    ".svg"
+  ],
+  "panels": [
+    {
+      "figure": "Figure 2c",
+      "stem": "pitch/tightness_run_equal/pitch_absolute_error_ecdf",
+      "description": "Run-equal pitch ECDF",
+      "renderer": "python PitchAnalysis/plot_pitch.py"
+    },
+    {
+      "figure": "Figure 2d",
+      "stem": "pitch/tightness_run_equal/pitch_centered_error_distribution",
+      "description": "Run-centred pitch errors",
+      "renderer": "python PitchAnalysis/plot_pitch.py"
+    },
+    {
+      "figure": "Figure 3b",
+      "stem": "pitch/mechanism/pitch_representative_control_timeseries",
+      "description": "Representative pitch coordination",
+      "renderer": "python PitchAnalysis/plot_pitch.py"
+    },
+    {
+      "figure": "Figure 3c",
+      "stem": "pitch/mechanism/pitch_population_control_gains_run_level",
+      "description": "Torso-to-head transmission gains",
+      "renderer": "python PitchAnalysis/plot_pitch.py"
+    },
+    {
+      "figure": "Figure 3d",
+      "stem": "pitch/mechanism/pitch_continuous_disturbance_rejection_run_equal",
+      "description": "Run-equal counter-rotation distribution",
+      "renderer": "python PitchAnalysis/plot_pitch.py"
+    },
+    {
+      "figure": "Figure 4b",
+      "stem": "yaw/yaw_absolute_error_ecdf_yaw_only",
+      "description": "Seven-pursuit yaw ECDF",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure 4c",
+      "stem": "yaw/yaw_signed_error_distribution_lateral_only",
+      "description": "Five-lateral-pursuit signed yaw errors",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure 4d",
+      "stem": "yaw/geometry/02_yaw_lead_vs_geometry",
+      "description": "Yaw lead versus pursuit geometry",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure 4e",
+      "stem": "yaw/geometry/01_yaw_lead_by_context",
+      "description": "Yaw lead distributions by context",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure 4f",
+      "stem": "yaw/yaw_mc_supported_modes_by_context",
+      "description": "Monte Carlo-supported states, 10-degree gate",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure 5b",
+      "stem": "yaw/models/candidate_model_comparison_lateral5",
+      "description": "Candidate-model comparison",
+      "renderer": "python YawAnalysis/compare_models.py"
+    },
+    {
+      "figure": "Figure S10a",
+      "stem": "pitch/tightness_animal_equal/pitch_absolute_error_ecdf",
+      "description": "Animal-equal pitch ECDF",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S10b",
+      "stem": "pitch/tightness_animal_equal/pitch_centered_error_distribution",
+      "description": "Animal-equal centred pitch errors",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S13",
+      "stem": "yaw/yaw_absolute_error_ecdf_yaw_only_animal_equal",
+      "description": "Animal-equal yaw ECDF",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure S14",
+      "stem": "yaw/mode_threshold_sensitivity",
+      "description": "Supported states at 5- and 15-degree gates",
+      "renderer": "python YawAnalysis/plot_yaw.py"
+    },
+    {
+      "figure": "Figure S15a",
+      "stem": "yaw/spatial/supplementary_spatial_lead_ratio",
+      "description": "Spatial lead divided by range",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S15b",
+      "stem": "yaw/spatial/MonteCarloResults/julesTopRun1_20171209_spatial_lookahead_monte_carlo_timeseries",
+      "description": "Spatial lead and range with uncertainty",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S15c",
+      "stem": "yaw/spatial/MonteCarloResults/julesTopRun11_20170829_spatial_lookahead_monte_carlo_timeseries",
+      "description": "Spatial lead and range, display before 0.64 s",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S16a",
+      "stem": "yaw/head_torso/figure_6_closure_vs_decoupling",
+      "description": "Closing speed versus head-torso separation",
+      "renderer": "MATLAB run_saved_analysis"
+    },
+    {
+      "figure": "Figure S16b",
+      "stem": "yaw/head_torso/figure_7_top_view_decoupling_example",
+      "description": "Representative top-view pursuit geometry",
+      "renderer": "MATLAB run_saved_analysis"
+    }
+  ]
+}

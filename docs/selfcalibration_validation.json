@@ -1,0 +1,12 @@
+{
+  "dataset": "julesBottomFlick2_20171209",
+  "cv_choice": "sync_calib",
+  "reference_cv_choice": "sync_calib",
+  "max_timing_difference_frames": 0.003838310645725901,
+  "integer_offsets_equal": true,
+  "max_camera_k_difference": 0.0,
+  "max_camera_d_difference": 0.0,
+  "max_camera_r_difference": 1.9784322366239726e-05,
+  "max_camera_t_difference": 0.0005369489522779602,
+  "max_label_coordinate_difference_px": 0.43921430455725385
+}

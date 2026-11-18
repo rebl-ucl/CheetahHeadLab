@@ -1,0 +1,19 @@
+# Local execution and environments
+/outputs/
+/.venv/
+__pycache__/
+*.py[cod]
+*.asv
+matlab_crash_dump.*
+
+# Local archives, backups and editor metadata
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+.backup*
+/backups/
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db

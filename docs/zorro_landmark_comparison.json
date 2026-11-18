@@ -1,0 +1,12 @@
+{
+  "neck": {
+    "median_difference_m": 2.250110517993878e-05,
+    "max_difference_m": 0.0005530378556279891,
+    "last_difference_m": 1.7337738427002589e-06
+  },
+  "spine": {
+    "median_difference_m": 9.65717842700584e-06,
+    "max_difference_m": 0.00018564617696052778,
+    "last_difference_m": 4.358885101041272e-07
+  }
+}

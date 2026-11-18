@@ -1,7 +1,7 @@
 {
   "source_project": "CheetahHeadLab_core",
   "source_checkout_commit": "1b4c7ab93835d4657864a2559fec977f4b613dc7",
-  "note": "Working-tree snapshot; uncommitted source changes are identified by per-file hashes. This commit alone does not identify the source snapshot. source_file records the original checkout path, including historical directory names; file is the current release path. Analysis entry points preserve the manuscript cohorts. Newly authored wrappers and adapters are covered by SHA256SUMS.",
+  "note": "Working-tree snapshot; uncommitted source changes are identified by per-file hashes. This commit alone does not identify the source snapshot. source_file records the original checkout path, including historical directory names; file is the current release path. Analysis entry points preserve the manuscript cohorts. Newly authored wrappers and adapters are covered by tests/SHA256SUMS.",
   "files": [
     {
       "file": "CRBR/reconstruction/ASseedResidualFromModel.m",

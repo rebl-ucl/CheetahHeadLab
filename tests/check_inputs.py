@@ -8,18 +8,18 @@ import numpy as np
 import pandas as pd
 from scipy.io import loadmat
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "CRBR/selfcalibration"))
 from selfcalib.dataset import Dataset
 
 
 def main():
-    checksums = ROOT / "SHA256SUMS"
-    if checksums.exists():
-        for line in checksums.read_text().splitlines():
-            digest, filename = line.split("  ", 1)
-            actual = hashlib.sha256((ROOT / filename).read_bytes()).hexdigest()
-            assert actual == digest, f"Checksum mismatch: {filename}"
+    checksums = Path(__file__).with_name("SHA256SUMS")
+    assert checksums.is_file(), f"Missing checksum inventory: {checksums}"
+    for line in checksums.read_text().splitlines():
+        digest, filename = line.split("  ", 1)
+        actual = hashlib.sha256((ROOT / filename).read_bytes()).hexdigest()
+        assert actual == digest, f"Checksum mismatch: {filename}"
     manifest = json.loads((ROOT / "manifest.json").read_text())
     assert len(manifest) == 18
     summary = []
@@ -55,7 +55,10 @@ def main():
             assert np.isin(group.absolute_frame, ref["absFrames"].ravel()).all()
     for name, cameras, frames in summary:
         print(f"OK  {name}: {cameras} cameras, {frames} reconstruction frames")
-    print(f"Verified {len(summary)} pursuits, {sum(x[2] for x in summary)} reconstruction frames.")
+    print(f"Verified inputs for {len(summary)} pursuits.")
+    if selected.exists():
+        print(f"Manuscript selection: {len(table):,} frames; {table.pitch_included.sum():,} for pitch.")
+    print(f"Full reconstruction windows: {sum(x[2] for x in summary):,} frames before manuscript selection.")
 
 
 if __name__ == "__main__":

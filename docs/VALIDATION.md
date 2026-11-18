@@ -7,7 +7,7 @@ reconstruction, so no saved pose or triangulation is used as an input.
 
 ## Input inventory
 
-`python check_inputs.py` passed for all 18 pursuits, including camera order,
+`python tests/check_inputs.py` passed for all 18 pursuits, including camera order,
 annotation/visibility coverage, reconstruction limits and reference frame
 coverage. The reconstruction windows contain 1,900 frames. The independently
 listed manuscript cohort contains 1,708 unique dataset/frame pairs, with

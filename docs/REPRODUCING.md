@@ -9,7 +9,15 @@ during High-speed Pursuit*. It reconstructs separate head and torso models
 and the lure from annotated multiview images, with optional joint Monte Carlo
 reconstruction. Original videos are not needed for numerical reconstruction.
 
-## Quick start
+## Reproduce the manuscript panels
+
+The shortest route uses the included nominal reconstructions and 500 joint
+Monte Carlo draws. Follow the [README quick start](../README.md#reproduce-the-manuscript-panels)
+to run `run_saved_analysis` and the three Python rendering commands. This exports
+20 manuscript panels without repeating reconstruction. The sections below cover
+optional reconstruction from image annotations.
+
+## Reconstruct one pursuit
 
 Open MATLAB in this folder and run:
 
@@ -73,6 +81,10 @@ Processing and Image Processing Toolboxes. Behavioural analyses also use
 Statistics and Machine Learning Toolbox. Parallel Computing Toolbox is
 optional for parallel Monte Carlo execution. MATLAB's dependency report is
 recorded in `docs/VALIDATION.md`. Earlier MATLAB releases have not been tested.
+The supplementary spatial time-series exporter also uses Fontconfig (`fc-match`)
+and MATLAB's Java runtime to position labels. Install Fontconfig for the tested
+Linux workflow. Poppler's `pdftoppm` is recommended for PNG export; the renderer
+falls back to MATLAB printing when it is unavailable.
 
 Python runs self-calibration, input checks, figure rendering and yaw-model comparisons:
 
@@ -80,11 +92,11 @@ Python runs self-calibration, input checks, figure rendering and yaw-model compa
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python check_inputs.py
+python tests/check_inputs.py
 ```
 
 Use Python 3.10 or later. Tested dependency versions are recorded in
-`docs/python_environment.txt`. `check_inputs.py` verifies checksums, camera
+`docs/python_environment.txt`. `tests/check_inputs.py` verifies checksums, camera
 ordering, annotation coverage, reference trajectories and manuscript frame IDs.
 
 ## Rerun spatiotemporal self-calibration
@@ -163,6 +175,7 @@ to `run_monte_carlo`, or `'useParallel',true` to `run_reconstruction`.
 | `PitchAnalysis/` | Target-relative pitch precision and counter-rotation/control gains |
 | `YawAnalysis/` | Yaw distributions, pursuit geometry, tracking states, candidate models and spatial lead |
 | `docs/` | Input conventions, provenance and validation results |
+| `tests/` | Optional input, output and reconstruction checks, including file checksums |
 
 The full reconstruction windows contain 1,900 frames. They include boundary
 and other frames outside the manuscript analysis cohort, since fitting and
@@ -177,7 +190,7 @@ and intermediate reconstruction diagnostics are omitted. Compact Monte Carlo
 analysis inputs are included. The README includes one short
 reconstruction preview. Use a Git clone or GitHub source download to obtain the repository.
 Generated outputs, virtual environments and caches are ignored by Git.
-`SHA256SUMS` verifies the supplied source files, inputs and reference data.
+`tests/SHA256SUMS` verifies the supplied source files, inputs and reference data.
 
 ## Data provenance
 

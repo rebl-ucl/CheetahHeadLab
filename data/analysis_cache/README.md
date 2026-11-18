@@ -15,5 +15,5 @@ The ensembles originate from the manuscript reconstruction outputs in
 CheetahHeadLab_core, extracted by prepare_analysis_inputs and validated against
 manuscript tables. Original paths inside MATLAB metadata record provenance
 only and are not required at runtime. Per-file hashes are in manifest.json
-and the repository SHA256SUMS. Optimizer diagnostics and intermediate fits
+and `tests/SHA256SUMS`. Optimizer diagnostics and intermediate fits
 are omitted; all joint poses and lure positions needed by the analyses remain.
